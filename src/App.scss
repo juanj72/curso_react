@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2? family= Oswald & display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+$light:#ffff;
+$gray:#c4ccde;
+
+
+.App {
+  h1{
+    color: red;
+  }
+  
+
+}
+.bloque-pro{
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  p{
+    margin-top: 15%;
+    margin-left: 10%;
+    width: 100%;
+  }
+}
+.bloque-pro2{
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  p{
+    margin-top: 19%;
+    margin-left: 10%;
+    width: 100%;
+  }
+}
+.form{
+  
+  padding-left: 10%;
+ 
+  
+  
+ 
+  input{
+   margin-bottom: 10%;
+   margin-top: 10%;
+    display: block;
+  }
+ 
+}
+.contenedor{
+  text-align: center;
+  display: flex;
+  
+}
+.content{
+  width: 100%;
+}
+
+.navbar{
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  background-color: rgb(255, 255, 255);
+  padding: 1rem 2rem;
+  border-bottom: 1px solid gray;
+}
+
+.slide{
+  width: 14rem;
+  height: calc(100vh - 52px);
+  border-right: 1px solid;
+  margin-right: 2%;
+  ul{
+    
+    list-style: none;
+    padding: 1rem 2rem;
+    li{
+      margin-bottom: 1rem;
+      a{
+        text-decoration: none;
+        &.active{
+          background-color: aqua;
+        }
+      }
+    }
+
+  }
+}
+.flex{
+  display: flex;
+}
+.contenido_turno{
+  display: flex;
+  padding-left: 25%;
+  margin-top: 5%;
+  
+  
+ div{
+  background-color: aqua;
+  margin-right:10%; ;
+ }
+}
