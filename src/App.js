@@ -6,8 +6,9 @@ import Slidebar from './components/Slidebar';
 import Home from './pages/Home'
 import Sales from './pages/Sales'
 import Clientes from './pages/Clientes';
-import Ventas from './pages/Ventas'
-import Reportes from './pages/Reportes'
+import Ventas from './pages/Ventas';
+import Reportes from './pages/Reportes';
+import Prueba from './pages/Prueba'
 
 
 
@@ -25,6 +26,7 @@ function App() {
        <Route path="/clientes" exact element={<Clientes/>} />
        <Route path='/ventas' exact element={<Ventas/>}/>
        <Route path='/Reportes' exact element={<Reportes/>}/>
+       <Route path='/Prueba' exact element={<Prueba/>}/>
        </Routes>  
                                    
         

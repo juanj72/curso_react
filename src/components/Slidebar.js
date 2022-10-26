@@ -14,6 +14,7 @@ const Slidebar =()=>{
                 <li><NavLink to="/Clientes" exact className="text-dark rounded py-2 w-100 d-inline-block px-3" activeClassName="active"><FaIcons.FaUserFriends/> Ver Producto</NavLink> </li>
                 <li><NavLink to="/ventas" exact className="text-dark rounded py-2 w-100 d-inline-block px-3" activeClassName="active"><FaIcons.FaUserTie/> ventas</NavLink></li>
                 <li><NavLink to="/reportes" exact className="text-dark rounded py-2 w-100 d-inline-block px-3" activeClassName="active"><FaIcons.FaChartBar/> Reportes</NavLink></li>
+                <li><NavLink to="/prueba" exact className="text-dark rounded py-2 w-100 d-inline-block px-3" activeClassName="active"><FaIcons.FaSnowman/> prueba</NavLink></li>
                 
             </ul>
      
